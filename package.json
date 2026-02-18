@@ -1,8 +1,7 @@
 {
-  "name": "ui5-learning",
+  "name": "ui5.walkthrough",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "UI5 TypeScript Walkthrough",
   "scripts": {
     "start": "ui5 serve -o index.html"
   },
@@ -11,6 +10,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/openui5": "^1.144.0",
     "typescript": "^5.9.3",
     "ui5-middleware-livereload": "^3.2.1",
     "ui5-middleware-serveframework": "^3.7.1",

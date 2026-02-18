@@ -1,0 +1,5 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Text text="Welcome to my new Learning Journey with SAPUI5" />
+</mvc:View>
