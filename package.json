@@ -11,6 +11,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/openui5": "^1.144.0",
+    "@ui5/cli": "^4.0.44",
     "typescript": "^5.9.3",
     "ui5-middleware-livereload": "^3.2.1",
     "ui5-middleware-serveframework": "^3.7.1",

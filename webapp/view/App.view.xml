@@ -2,7 +2,7 @@
    controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-  <Text text="Welcome to my new Learning Journey with SAPUI5" />
+  <Text text="Welcome {/recipient/name}" />
   <Button
       text="Say Hello"
       press=".onShowHello"/>
