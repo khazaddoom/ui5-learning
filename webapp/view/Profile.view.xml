@@ -1,0 +1,6 @@
+<mvc:View
+   controllerName="ui5.walkthrough.controller.Profile"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+  <Text text="Welcome {/data/name}" />
+</mvc:View>

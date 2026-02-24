@@ -4,20 +4,19 @@ import JSONModel from "sap/ui/model/json/JSONModel";
 /**
  * @namespace ui5.walkthrough
  */
-export default class Component extends UIComponent {
+export default class Profile extends UIComponent {
     public static metadata = {
         "interfaces": ["sap.ui.core.IAsyncContentCreation"],
-        "manifest": "json"
+        "manifest": "json",
+        "id": "profile"
     };
     init(): void {
         super.init();
         const data = {
-            recepient: {
-                name: "Incture Technologies"
+            data: {
+                name: "My profile Info"
             }
         }
-        const oModel = new JSONModel(data)
-        this.setModel(oModel);
-
-    };
+        this.setModel(new JSONModel(data));
+    }
 }
