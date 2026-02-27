@@ -1,0 +1,10 @@
+.myApplication .btn {
+    border-radius: 50%;
+}
+
+
+.myApplication .myCustomText {
+    display: inline-block;
+    font-weight: bold;
+    color: var(--sapHighlightColor)
+}

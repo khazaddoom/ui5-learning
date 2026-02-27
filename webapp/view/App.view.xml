@@ -5,18 +5,18 @@
     displayBlock="true"
 >
 <Shell>
-    <App>
+    <App class="myApplication">
         <pages>
             <Page title="Welcome to UI5 learning">
                 <content>
                     <Panel headerText="Welcome Page" class="sapUiResponsiveMargin"
 							width="auto">
                         <content>
-                            <Text text="Welcome {/recipient/name}" class="sapUiSmallMarginEnd" />
+                            <Text text="Welcome {/recipient/name}" class="sapUiSmallMarginEnd myCustomText" />
                             <Button
                                 text="{i18n>showHelloButtonText}"
                                 press=".onShowHello"
-                                class="sapUiSmallMargin"
+                                class="sapUiSmallMargin btn"
                             />
                         </content>
                     </Panel>
