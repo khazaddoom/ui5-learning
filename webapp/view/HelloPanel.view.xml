@@ -12,6 +12,11 @@
                                 press=".onShowHello"
                                 class="sapUiSmallMargin btn"
                             />
+                            <Button 
+                                text="Show Dialog"
+                                press=".openDialog"
+                                class="sapUiSmallMargin btn"
+                            ></Button>
                         </content>
                     </Panel>
 </mvc:View>
