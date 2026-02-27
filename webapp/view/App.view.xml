@@ -9,17 +9,7 @@
         <pages>
             <Page title="Welcome to UI5 learning">
                 <content>
-                    <Panel headerText="Welcome Page" class="sapUiResponsiveMargin"
-							width="auto">
-                        <content>
-                            <Text text="Welcome {/recipient/name}" class="sapUiSmallMarginEnd myCustomText" />
-                            <Button
-                                text="{i18n>showHelloButtonText}"
-                                press=".onShowHello"
-                                class="sapUiSmallMargin btn"
-                            />
-                        </content>
-                    </Panel>
+                    <mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel"></mvc:XMLView>
                 </content>
             </Page>
         </pages>

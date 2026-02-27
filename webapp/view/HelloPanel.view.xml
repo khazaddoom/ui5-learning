@@ -1,0 +1,17 @@
+<mvc:View
+    controllerName="ui5.walkthrough.controller.HelloPanel"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+<Panel headerText="Welcome Page" class="sapUiResponsiveMargin"
+							width="auto">
+                        <content>
+                            <Text text="Welcome {/recipient/name}" class="sapUiSmallMarginEnd myCustomText" />
+                            <Button
+                                text="{i18n>showHelloButtonText}"
+                                press=".onShowHello"
+                                class="sapUiSmallMargin btn"
+                            />
+                        </content>
+                    </Panel>
+</mvc:View>
