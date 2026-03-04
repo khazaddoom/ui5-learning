@@ -1,0 +1,16 @@
+{
+    "Employees": [
+        {
+            "name": "Ganesh Acharya",
+            "department": "Products"
+        },
+        {
+            "name": "Sanjay MG",
+            "department": "Digital Services"
+        },
+        {
+            "name": "Sanjay MG",
+            "department": "Digital Services"
+        }
+    ]
+}

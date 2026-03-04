@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core">
+   <List
+        headerText="{i18n>employeeListTitle}"
+        class="sapUiResponsiveMargin"
+        width="auto"
+        items="{employee>/Employees}" >
+        <items>
+            <ObjectListItem
+                title="{employee>name}"/>
+        </items>
+    </List>
+</core:FragmentDefinition>
